@@ -44,3 +44,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# my changes
+.vs/
+.vs/slnx.sqlite
+package-lock.json~RF3fd93819.TMP
+.vs/slnx.sqlite
