@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Expander Prototype</h1>
+  <div class="row h3">
+    <div class="col">Header Bar</div>
+    <div class="col-1 ml-auto">
+      <button class="btn btn-success" (click)="expandCollapseToggle()">{{ status }}</button>
+    </div>
+  </div>
+  <div class="row" [@expandCollapseTrigger]="status">
+    <div class="col-1 tile" *ngFor="let item of list">{{ item }}</div>
+  </div>
+</div>

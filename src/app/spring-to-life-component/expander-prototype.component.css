@@ -1,0 +1,13 @@
+.tile {
+    height: 96px;
+    width: 144px;
+    background-color:burlywood;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.row {
+    background-color:aquamarine;
+}
